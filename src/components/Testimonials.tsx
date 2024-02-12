@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Navigation, Pagination } from 'swiper/modules'
 import {Swiper, SwiperSlide} from 'swiper/react'
 import { FaArrowCircleRight } from "react-icons/fa";
@@ -9,6 +9,8 @@ type ITestimonial = {
   text: string,
   autor: string
 }
+
+
 
 const data: ITestimonial[]  = [
   {id: '1', text: "Excelentes profissionais!!! Recomendo com toda certeza.", autor: 'Maryanne - RV Work'},

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import clientes from '../assets/clientes.png'
 
 const OtherServices = () => {

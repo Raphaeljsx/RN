@@ -1,8 +1,4 @@
-import React from 'react'
 
-
-import { FaArrowCircleRight } from "react-icons/fa";
-import { FaArrowCircleLeft } from "react-icons/fa";
 
 // Import Swiper styles
 import 'swiper/css';

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import Logo from '../assets/logo.png'
 import LogoDark from '../assets/logo_dark.png'
 import gradientLeft from '../assets/gradient-1.png'
