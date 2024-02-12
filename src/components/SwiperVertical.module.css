@@ -1,0 +1,37 @@
+.MySwiper {
+  width: 100%;
+  height: 100%;
+  display: flex!important;
+}
+
+@media(max-width:768px) {
+  .MySwiper{
+    flex-direction: column;
+  }
+}
+
+.swiperSlide {
+  text-align: left;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: self-start;
+  cursor: pointer;
+  flex-direction: column;
+}
+
+.swiperSlide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-pagination {
+  position: relative;
+  width: 15rem !important;
+  bottom: 1rem;
+}
