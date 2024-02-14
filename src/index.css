@@ -46,7 +46,7 @@ img,svg,video{
   position: absolute;
 }
 
-@media(width:425px){
+@media(min-width:425px) and (max-width:640px){
   .g-left{
     max-width: 110%;
   }
