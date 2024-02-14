@@ -34,6 +34,10 @@ const Testimonials = () => {
             el: '.swiper-pagination',
             clickable: true
           }}
+          autoplay={{
+            delay: 2000,
+            disableOnInteraction: false
+        }}
           modules={[Navigation, Pagination]}
           className='swiper block'
         >

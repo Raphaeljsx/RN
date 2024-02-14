@@ -14,7 +14,7 @@ function Header() {
   }
 
   return (
-    <header id='home' className='header'>
+    <header id='home' className='header overflow-hidden'>
       <img className='g-left' src={gradientLeft} />
 
       <nav className='flex justify-between items-center p-5'>

@@ -30,6 +30,11 @@ const SwiperVertical = () => {
         }}
         modules={[Pagination, Navigation]}
         className={styles.MySwiper}
+        loop={true}
+        autoplay={{
+          delay: 2000,
+          disableOnInteraction: false
+      }}
       >
         {data.map((item) =>(
           <SwiperSlide key={item.id} className={styles.swiperSlide}><p>{item.text}</p>
